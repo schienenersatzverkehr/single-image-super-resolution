@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "super-resolution"
+version = "0.2.0"
+description = ""
+authors = ["Matthias Rötzer <matthias1roetzer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "super_resolution"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-image = "^0.20.0"
+opencv-python = "^4.7.0.72"
+torch = "^2.0.0"
+matplotlib = "^3.7.1"
+ipython = "^8.12.0"
+scikit-learn = "^1.2.2"
+loguru = "^0.7.0"
+jupyter = "^1.0.0"
+google = "^3.0.0"
+torchvision = "^0.15.1"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
